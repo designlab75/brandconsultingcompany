@@ -40,6 +40,17 @@ h1{
     line-height: 70px;
     color: #5e5e5e;
 }
+.header-animation{
+    animation: type 5s steps(30);
+    overflow: hidden;
+    white-space: normal;   
+    width: 120ch;
+}
+@keyframes type{
+    0%{
+        width: 0ch;
+    }
+}
 h2{
     font-family: "IBMPlexSerif-Bold";
     font-weight: bolder;
