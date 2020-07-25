@@ -8,36 +8,36 @@
 
 @font-face{
     font-family: "IBMPlexSerif-Medium";
-    src: url(../fonts/IBMPlexSerif-Medium.ttf);
+    src: url(/fonts/IBMPlexSerif-Medium.ttf);
 }
 @font-face{
     font-family: "IBMPlexSerif-Bold";
-    src: url(../fonts/IBMPlexSerif-Bold.ttf);
+    src: url(./fonts/IBMPlexSerif-Bold.ttf);
 }
 @font-face{
     font-family: "IBMPlexSerif-SemiBold";
-    src: url(../fonts/IBMPlexSerif-SemiBold.ttf);
+    src: url(./fonts/IBMPlexSerif-SemiBold.ttf);
 }
 @font-face{
     font-family: "BioRhyme-Bold";
-    src: url(../fonts/BioRhyme-Bold.ttf);
+    src: url(./fonts/BioRhyme-Bold.ttf);
 }
 @font-face{
     font-family: "BioRhyme-Light";
-    src: url(../fonts/BioRhyme-Light.ttf);
+    src: url(./fonts/BioRhyme-Light.ttf);
 }
 @font-face{
     font-family: "BioRhyme-Regular";
-    src: url(../fonts/BioRhyme-Regular.ttf);
+    src: url(./fonts/BioRhyme-Regular.ttf);
 }
 
 /*-----------------body-----------------*/
 
 h1{
-    font-family: "IBMPlexSerif-Bold";
+    font-family: "IBMplexserif-Bold";
     font-weight: bold;
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 70px;
+    line-height: 80px;
     color: #5e5e5e;
 }
 .header-animation{
@@ -64,20 +64,20 @@ h4{
 }
 p{
     font-family: "BioRhyme-Light";
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
     font-weight: lighter;
     color: #444141;
 }
 
 body{
-    background-color: rgb(255, 234, 234);
+    background-color: rgb(255, 255, 255);
 }
 
 /*-----------------NAV BER-----------------*/
 
 #header{
-    background-color: rgb(220, 181, 231);
+    background-color: rgb(242, 220, 243);
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -106,8 +106,7 @@ body{
     text-align: center;
     
 }
-
-
+/*--------how work---------*/
 
 .half-width {
     text-align: center;
